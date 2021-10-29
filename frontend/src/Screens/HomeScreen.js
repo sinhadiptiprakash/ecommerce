@@ -18,7 +18,7 @@ export default function HomeScreen()
                 const { data } = await axios.get('/api/products');
                 setLoading(false);
                 setProducts(data);
-                
+
             } catch (err)
             {
                 setError(err.message);
