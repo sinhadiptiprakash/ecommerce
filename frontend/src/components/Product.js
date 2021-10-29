@@ -3,7 +3,7 @@ import Rating from './Rating';
 
 export default function Product(props)
 {
-    const {product} = props;
+    const { product } = props;
     return (
         <>
             <div id={product.id} className="card">
